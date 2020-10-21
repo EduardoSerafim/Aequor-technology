@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+
+/* Cores oficiais
+- Preto: #091929
+- Azul: #27496B
+- Cinza: #d4dce5
+- Branco: #FFFFFF
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-right: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    color: #afafaf;
+}
+
+header {
+    display: flex;
+    height: 8vh;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-cabecalho {
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 21px;
+    background-color: rgba(239, 239, 239, 0.772);
+}
+
+.introducao {
+    height: 92vh;
+}
+
+.text-introducao {
+    width: 50%;
+    text-align: end;
+    color: white;
+    font-size: 35px;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.text-conteudo1 {
+    margin-right: 70px;
+    padding-bottom: 18px;
+    text-align: justify;
+}
+
+.text-conteudo2 {
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.06);
+    width: 50%;
+}
+
+.img-robo {
+    width: 35vw;
+    height: 75vh;
+    border-radius: 50%;
+    margin: 55px;
+}
+
+.botoes {
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #27496B;
+    margin-right: 15px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.banner2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container.banner2 .galeria {
+    width: 100%;
+    margin: 10px;
+    height: auto;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.container.banner2 h3 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin: 20px 0 20px 0;
+}
+
+.container.banner2 .galeria img {
+    width: 32%;
+    opacity: 0.7;
+    border-radius: 10px;
+    transition: opacity 300ms;
+}
+.container.banner2 .galeria img:hover{
+    opacity: 1;
+}
+
+
+#article-especificacoes .text-conteudo1, h3{
+    width: 40%;
+    margin: 30px;
+}
+
+.banner-formatacao1 {
+    width: 100%;
+    height: 100vh;
+    padding: 0 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    /* Alinhar elementos ao inicio do container; */
+    align-items: center;
+}
+
+.banner-formatacao2 {
+    width: 100%;
+    height: 100vh;
+    padding: 0 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.banner-formatacao3 {
+    width: 100%;
+    height: 100vh;
+    padding: 0 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner1 {
+    background-image: url(../imgs/Banner1.png);
+}
+
+.banner2 {
+    background-image: url(../imgs/Banner2.png);
+}
+
+.banner3 {
+    background-image: url(../imgs/Banner3.png);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+footer .infoFooter{
+    font-size: 16px;
+    width: 60%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    /* background-colo   r: yellow; */
+}
+
+footer .infoFooter ul{
+    list-style: none;
+}
+
+footer .infoFooter ul li{
+    margin-top: 15px;
+
+}
+
+footer .social{
+    font-size: 20px;
+    width: 30%;
+    margin-right: 0;
+    
+}
+
+footer .social ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .social ul li{
+    margin-top: 15px;
+
+}
