@@ -17,6 +17,7 @@ h3 {
     margin-bottom: 20px;
     font-size: 30px;
     margin-right: 70px;
+    font-weight: 700;
 }
 
 a {
@@ -94,6 +95,14 @@ body {
     width: 50%;
 }
 
+#article-robo .conteudoSection2 {
+    width: 80%;
+    margin: 30px;
+}
+#article-robo .conteudoSection2 h3{
+    
+    margin: 30px 0;
+}
 .img-robo {
     width: 35vw;
     height: 75vh;
@@ -109,48 +118,47 @@ body {
     margin-right: 15px;
 }
 
-.container {
+.conteiner {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container.banner2 {
+.conteiner.banner2 {
     display: flex;
     flex-direction: column;
 }
 
-.container.banner2 .galeria {
+.conteiner.banner2 .galeria {
     width: 100%;
-    margin: 10px;
     height: auto;
-    /* background-color: yellow; */
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
 
-.container.banner2 h3 {
+.conteiner.banner2 h3 {
     text-align: center;
     color: white;
     font-size: 35px;
     margin: 20px 0 20px 0;
 }
 
-.container.banner2 .galeria img {
+.conteiner.banner2 .galeria img {
     width: 30%;
     opacity: 0.7;
     border-radius: 10px;
     transition: opacity 300ms;
+
 }
-.container.banner2 .galeria img:hover{
+.conteiner.banner2 .galeria img:hover{
     opacity: 1;
 }
 
 
-#article-especificacoes .text-conteudo1, h3{
-    width: 80%;
+#article-especificacoes .text-conteudo1, #article-especificacoes h3{
+    width: 40%;
     margin: 30px;
     padding: 20px;
 }
@@ -173,7 +181,7 @@ body {
     background-attachment: fixed;
     display: flex;
     justify-content: flex-end;
-    /* Alinhar elementos ao inicio do container; */
+    /* Alinhar elementos ao inicio do conteiner; */
     align-items: center;
 }
 
@@ -214,6 +222,19 @@ body {
     background-image: url(../imgs/Banner3.png);
 }
 
+/* #article-mercado{
+    display: flex;
+    align-items: center;
+} */
+
+
+#article-mercado .text-conteudo1, #article-mercado h3{
+    text-align: justify;
+    width: 40vw;
+    color: #fff;
+    margin: 50px 30px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -229,6 +250,7 @@ footer .infoFooter{
     width: 70%;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 footer .infoFooter ul{
