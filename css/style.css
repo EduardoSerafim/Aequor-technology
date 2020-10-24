@@ -27,6 +27,24 @@ a :hover {
     color: #afafaf;
 }
 
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome{
+    color: #ffff;
+    margin: 0;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.logo{
+    width: 2.7rem;
+    margin: 0;
+}
+
 header {
     display: flex;
     height: 8vh;
