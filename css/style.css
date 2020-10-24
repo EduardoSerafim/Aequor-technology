@@ -17,6 +17,7 @@ h3 {
     margin-bottom: 20px;
     font-size: 30px;
     margin-right: 70px;
+    font-weight: 700;
 }
 
 a {
@@ -157,7 +158,7 @@ body {
 }
 
 
-#article-especificacoes .text-conteudo1, h3{
+#article-especificacoes .text-conteudo1, #article-especificacoes h3{
     width: 40%;
     margin: 30px;
 }
@@ -213,6 +214,19 @@ body {
     background-image: url(../imgs/Banner3.png);
 }
 
+/* #article-mercado{
+    display: flex;
+    align-items: center;
+} */
+
+
+#article-mercado .text-conteudo1, #article-mercado h3{
+    text-align: justify;
+    width: 40vw;
+    color: #fff;
+    margin: 50px 30px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -229,7 +243,7 @@ footer .infoFooter{
     
     display: flex;
     justify-content: space-evenly;
-    /* background-colo   r: yellow; */
+    
 }
 
 footer .infoFooter ul{
