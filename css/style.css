@@ -39,11 +39,11 @@ a :hover {
     margin: 0;
     font-weight: 700;
     margin: 5px;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 .logo{
-    width: 4rem;
+    width: 2.5rem;
     margin: 0;
 }
 
@@ -84,7 +84,6 @@ body {
 
 .text-conteudo1 {
     margin-right: 70px;
-    padding-bottom: 18px;
     text-align: justify;
 }
 
@@ -161,6 +160,15 @@ body {
 #article-especificacoes .text-conteudo1, #article-especificacoes h3{
     width: 40%;
     margin: 30px;
+    padding: 20px;
+}
+
+#article-especificacoes .table-formatacao{
+    width: 800px;
+    height: auto;
+    margin-right: 40px;
+    border: 1px solid;
+    text-align: center;
 }
 
 .banner-formatacao1 {
@@ -234,13 +242,12 @@ footer {
     height: 30vh;
     background-color: black;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 
 footer .infoFooter{
-    font-size: 16px;
-    width: 60%;
-    
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
     
@@ -252,25 +259,23 @@ footer .infoFooter ul{
 
 footer .infoFooter ul li{
     margin-top: 15px;
-
 }
 
 footer .social{
     font-size: 20px;
     width: 30%;
-    margin-right: 0;
-    
+    margin-right: 0;  
 }
 
 footer .social ul{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
 }
 
-footer .social ul li{
-    margin-top: 15px;
-
+.link-footer{
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
 }
 
 .redes-sociais{
