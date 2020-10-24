@@ -38,16 +38,17 @@ a :hover {
     margin: 0;
     font-weight: 700;
     margin: 5px;
+    font-size: 1.6rem;
 }
 
 .logo{
-    width: 2.7rem;
+    width: 4rem;
     margin: 0;
 }
 
 header {
     display: flex;
-    height: 8vh;
+    height: 12vh;
     background-color: black;
     align-items: center;
     justify-content: space-around;
@@ -128,6 +129,7 @@ body {
     /* background-color: yellow; */
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .container.banner2 h3 {
@@ -138,7 +140,7 @@ body {
 }
 
 .container.banner2 .galeria img {
-    width: 32%;
+    width: 30%;
     opacity: 0.7;
     border-radius: 10px;
     transition: opacity 300ms;
