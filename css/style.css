@@ -58,7 +58,7 @@ header {
 }
 
 .text-cabecalho {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 100;
     color: white;
     text-decoration: none;
@@ -281,3 +281,22 @@ footer .social ul{
 }
 
 /* Formatação responsiva - com base no CSS acima */
+@media(max-width: 1000px){
+    /* header */
+    header{
+        height: 50vh;
+        padding: 50px;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    /* Seção inicial */
+
+    /* Seção de aprendizado */
+
+    /* Seção de galeria */
+
+    /* Seção de especificação */
+
+    /* Seção de mercado */
+}
