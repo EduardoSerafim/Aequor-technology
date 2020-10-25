@@ -78,7 +78,7 @@ body {
     width: 50%;
     text-align: end;
     color: white;
-    font-size: 35px;
+    font-size: 2.5rem;
     padding: 25px;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.06);
@@ -291,7 +291,12 @@ footer .social ul{
     }
     
     /* Seção inicial */
-
+    .text-introducao{
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
     /* Seção de aprendizado */
 
     /* Seção de galeria */
