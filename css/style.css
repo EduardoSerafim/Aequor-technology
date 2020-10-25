@@ -122,6 +122,7 @@ body {
 }
 
 .conteiner {
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -247,7 +248,7 @@ footer .infoFooter{
     width: 70%;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 footer .infoFooter ul{
@@ -261,7 +262,7 @@ footer .infoFooter ul li{
 footer .social{
     font-size: 20px;
     width: 30%;
-    margin-right: 0;  
+    margin-right: 0;
 }
 
 footer .social ul{
@@ -289,7 +290,7 @@ footer .social ul{
         text-align: center;
         flex-direction: column;
     }
-    
+
     /* Seção inicial */
     .text-introducao{
         width: 100%;
@@ -298,10 +299,109 @@ footer .social ul{
     }
     
     /* Seção de aprendizado */
+    #article-robo{
+        height: 900px;
+        flex-direction: column;
+    }
+
+    #article-robo .conteudoSection2{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .text-conteudo1{
+        margin: 0;
+        font-size: 1.0rem;
+    }
+
+    #article-robo .img-robo{
+        margin-top: 50px auto;
+        width: 50vh;
+        height: auto;
+    }
+
+    .botoes{
+        margin-bottom: 50px;
+        font-size: 1.1rem;
+    }
 
     /* Seção de galeria */
+    #article-fotos {
+        height: auto;
+    }
+
+    #article-fotos .galeria{
+        flex-direction: column;
+        align-items: center;
+        /* margin: 15px; */
+    }
+
+    #article-fotos .galeria img{
+        flex-direction: column;
+        margin: 15px;
+        width: 95%;
+    }
 
     /* Seção de especificação */
+    #article-especificacoes{
+        height: auto;
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+    #article-especificacoes .text-especificacoes{
+        margin: 0 auto;
+    } 
+
+    #article-especificacoes h3{
+        text-align: center;
+        width: 100%;
+        margin:
+        0px;
+    }
+
+    #article-especificacoes .img-robo{
+        width: 50vh;
+        height: auto;
+    }
+
 
     /* Seção de mercado */
+    #article-mercado{
+        height: 500px;
+        text-align: center;
+    }
+
+    #article-mercado h3{
+        width: 100%;
+    }
+
+    #article-mercado .text-conteudo1{
+        width: 90%;
+    }
+
+    /* footer*/
+    footer{
+        flex-direction: column;
+        height: auto;
+    }
+    footer .infoFooter{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-size: 1.0rem;
+        margin: 20px;
+    }
+
+    footer .social ul{
+        align-items: center;
+    }
+    footer .redes-sociais{
+        min-width: 5vw;
+    }
 }
